@@ -1,0 +1,480 @@
+/*=============================Global=======================================*/
+
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff9900;
+  --secondary-color: ;
+  --hover: ;
+}
+
+.container {
+  margin-left: 145px;
+  margin-right: 145px;
+}
+
+h1,
+h2,
+h3 {
+  color: #2f281e;
+  font-weight: 700;
+}
+
+p {
+  color: #544837;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 54px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #2f281e;
+}
+
+button {
+  cursor: pointer;
+  background: #ff9900;
+  border-radius: 4px;
+  align-self: center;
+  justify-self: center;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: 110px;
+  height: 46px;
+}
+
+.sign-in {
+  background-color: white;
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+
+  margin: 15px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*=============================Header=======================================*/
+
+header {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-top: 25px;
+}
+
+header nav a {
+  margin-right: 35px;
+}
+header nav div {
+  margin-left: 29px;
+}
+
+/*=============================GetStarted=======================================*/
+
+.get-started {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 20px;
+  margin-bottom: 10;
+}
+
+.get-started p {
+  margin-top: 30px;
+}
+
+.get-started .left {
+  padding-right: 60px;
+  align-self: center;
+  width: 50%;
+}
+
+.get-started .right {
+  width: 50%;
+  height: 496px;
+}
+
+.getStartedinner {
+  display: flex;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.getStartedinner img {
+  margin-right: 9px;
+  margin-left: 30px;
+}
+
+.getStartedinner .watch {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff9900;
+}
+
+.btn-get-started {
+  height: 53px;
+  width: 175px;
+}
+
+/*=============================WeDesign=======================================*/
+
+.we-design {
+  width: 539px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 111px;
+  margin-bottom: 56px;
+}
+
+.we-design h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #2f281e;
+}
+
+/*=============================Tests=======================================*/
+
+.tests {
+  background-image: url(images/Bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 389px;
+  margin-bottom: 120px;
+}
+
+.tests-section {
+  width: 240px;
+}
+.tests-section p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #544837;
+
+  margin-bottom: 60px;
+}
+.tests-section h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #2f281e;
+  margin-bottom: 13px;
+}
+
+.triangle {
+  width: 50px;
+  height: 50px;
+
+  border-radius: 19px;
+  margin-bottom: 47px;
+}
+
+.triangle1 {
+  background: #7752be;
+}
+
+.triangle2 {
+  background: #fab005;
+}
+
+.triangle3 {
+  background: #f03e3d;
+}
+
+.triangle4 {
+  background: #4dadf7;
+}
+.sign-up-now {
+  text-align: center;
+}
+.sign-up-now button {
+  text-align: center;
+  height: 53px;
+  width: 175px;
+}
+
+/*=============================DesignProfessionals=======================================*/
+
+.design-professionals {
+  margin-bottom: 101px;
+}
+
+.design-professionals .right {
+  flex: 1;
+}
+
+.design-professionals .inner {
+  gap: 105px;
+}
+
+.design-professionals .left {
+  flex: 1;
+}
+
+.design-professionals .left h2 {
+  margin-top: 3px;
+  margin-bottom: 22px;
+}
+
+.design-professionals .left h3 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.design-professionals .main-p {
+  margin-bottom: 30px;
+}
+
+/*=============================ProductManagers=======================================*/
+
+.product-managers {
+  margin-bottom: 105px;
+}
+
+.product-managers .inner {
+  gap: 105px;
+}
+
+.product-managers .right {
+  flex: 1;
+}
+.product-managers .left {
+  flex: 1;
+}
+
+.product-managers .right h1 {
+  margin-top: 3px;
+  margin-bottom: 22px;
+}
+
+.product-managers .main-p {
+  margin-bottom: 30px;
+}
+
+.product-managers-section {
+  display: flex;
+  gap: 39px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.product-managers-section img {
+  width: 35px;
+  height: 35px;
+}
+
+/*=============================Marketers=======================================*/
+
+.marketers .right {
+  flex: 1;
+}
+
+.marketers .inner {
+  gap: 80px;
+}
+
+.marketers .left {
+  flex: 1;
+}
+
+.marketers .right h1 {
+  margin-top: 3px;
+  margin-bottom: 22px;
+}
+
+.marketers .right h3 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.marketers .main-p {
+  margin-bottom: 30px;
+}
+
+/*=============================NeedASuperHero=======================================*/
+
+.need-super-hero {
+  height: 835px;
+  background-image: url(images/Bg2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 30px;
+  margin-top: 180px;
+  padding-top: 115px;
+  padding-bottom: 135px;
+}
+
+.need-super-hero .container {
+  background-image: url(images/Avator.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1144px;
+  height: 584px;
+  margin: 0px auto;
+}
+
+.need-super-hero button {
+  height: 53px;
+  width: 216px;
+}
+
+.need-super-hero .inner {
+  display: block;
+  text-align: center;
+  padding-top: 115px;
+  height: 226px;
+  width: 542px;
+
+  border-radius: 0px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.need-super-hero p {
+  margin-top: 22px;
+  margin-bottom: 45px;
+}
+
+/*=============================MarketingStrategies=======================================*/
+
+.marketing-strategies .join {
+  margin-top: 9px;
+  margin-bottom: 55px;
+}
+
+.marketing-strategies span {
+  font-weight: 700;
+}
+
+.marketing-strategies .inner {
+  justify-content: space-between;
+  gap: 13px;
+}
+
+.marketing-strategies .section {
+  height: 359px;
+  width: 348px;
+  border-radius: 8px;
+}
+
+.marketing-strategies .section p {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.marketing-strategies .section h3 {
+  margin-bottom: 39px;
+}
+.dots {
+  height: 16px;
+  width: 68px;
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+.dot {
+  margin-top: 45px;
+  height: 16px;
+  width: 16px;
+  background: #efefef;
+  border-radius: 50%;
+}
+
+.heading-active {
+  color: #ff9900;
+}
+
+.active {
+  background-color: #ff9900;
+}
+
+/*=============================Footer=======================================*/
+
+footer {
+  margin-top: 120px;
+}
+
+footer img {
+  margin-bottom: 270px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+}
+
+footer input {
+  height: 48px;
+  width: 325px;
+  display: block;
+  border-radius: 4px;
+  background: #ffffff;
+  border: 1px solid #bcd0e5;
+  box-sizing: border-box;
+  margin-bottom: 21px;
+}
+
+footer button {
+  height: 39px;
+  width: 131px;
+}
