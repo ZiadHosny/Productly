@@ -13,8 +13,7 @@ html {
 
 :root {
   --primary-color: #ff9900;
-  --secondary-color: ;
-  --hover: ;
+  --hover: #ff7700;
 }
 
 .container {
@@ -62,11 +61,16 @@ a {
   font-size: 14px;
   line-height: 28px;
   color: #2f281e;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: 700;
 }
 
 button {
   cursor: pointer;
-  background: #ff9900;
+  background: var(--primary-color);
   border-radius: 4px;
   align-self: center;
   justify-self: center;
@@ -77,6 +81,14 @@ button {
   line-height: 24px;
   width: 110px;
   height: 46px;
+}
+
+button:hover {
+  background-color: var(--hover);
+}
+
+ul {
+  list-style-type: none;
 }
 
 .sign-in {
@@ -436,11 +448,11 @@ header nav div {
 }
 
 .heading-active {
-  color: #ff9900;
+  color: var(--primary-color);
 }
 
 .active {
-  background-color: #ff9900;
+  background-color: var(--primary-color);
 }
 
 /*=============================Footer=======================================*/
@@ -451,10 +463,6 @@ footer {
 
 footer img {
   margin-bottom: 270px;
-}
-
-footer ul {
-  list-style-type: none;
 }
 
 footer li {
